@@ -79,8 +79,7 @@ The following supporting librarys are used in this suite alongside some of the b
 * Clone or download this repository
 * Using the command line navigate in to the project folder and execute the command ```pip install -r requirements.txt``` this will install robot framework and the required supporting library's and their dependencies
 
-Once everything has been installed you can run the test suite from the command line in the projects folder with the command```robot testscripts
-``` 
+Once everything has been installed you can run the test suite from the command line in the projects folder with the command```robot testscripts``` 
 
 
 
