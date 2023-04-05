@@ -52,6 +52,7 @@ pip install -r requirements.txt
 ```
 robot testscripts
 ``` 
+7. After the execution you can find report.html file, which contains report of test execution ![image](https://user-images.githubusercontent.com/20729169/230123838-a927a704-4c65-450e-ada8-5cc644260947.png)
 
 
 
