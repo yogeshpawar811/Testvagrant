@@ -31,20 +31,27 @@ The following supporting librarys are used in this suite alongside some of the b
 
 ### How do I get set up? ###
 
-* Install [Python 3](https://python.org/)
-* Clone or download this repository
-* To run the application, issue the following to your terminal. Replace `{path-to-this-jar}` with your actual path to the folder containing the jar 
+1. Install [Python 3](https://python.org/)
+2. Clone or download this repository
+3. To run the application, issue the following to your terminal. Replace `{path-to-this-jar}` with your actual path to the folder containing the jar 
 ```
 java -jar {path-to-this-jar}/OppenheimerProjectDev.jar
 ```
-* Give it a min or two to boot up and you should be able to visit the app and API interface here:
+4. Give it a min or two to boot up and you should be able to visit the app and API interface here:
 ```
 http://localhost:8080/
 http://localhost:8080/swagger-ui.html
 ```
-* Using the command line navigate in to the project folder and execute the command ```pip install -r requirements.txt``` this will install robot framework and the required supporting library's and their dependencies
+5. Using the command line navigate in to the project folder and execute the command 
+```
+pip install -r requirements.txt
+``` 
+this will install robot framework and the required supporting library's and their dependencies
 
-Once everything has been installed you can run the test suite from the command line in the projects folder with the command```robot testscripts``` 
+6. Once everything has been installed you can run the test suite from the command line in the projects folder with the command
+```
+robot testscripts
+``` 
 
 
 
