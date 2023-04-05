@@ -44,3 +44,46 @@ After the execution of the Robot Framework tests, a report file and a log file w
 
 The report file will have a .html extension and can be opened in a web browser to view the test results.
 The log file will have a .log extension and can be used to debug any issues that occurred during the test execution.
+  
+### What is Robot Framework? ###
+
+Robot framework is a python based, open source test automation framework with great extensibility. Robot framework is cross platform and will run on Mac, Linux and Windows. 
+
+See [here ](https://robotframework.org/)for Robot Framework home page
+
+
+### What exactly is this? ###
+
+A basic Robot Framework API test suite with the following tests:
+
+* 001_Post_Insert_Single_Record
+* 002_Post_Insert_Multiple_Record
+* 003_Upload_CSV_File
+* 004_AC1_AC2_GET_TaxReliefCalculation
+* 004_AC3_AC4_AC5_AC6_TaxReliefCalculation
+* 005_dispense_tax_relief
+
+The following supporting librarys are used in this suite alongside some of the built in librarys...
+
+[BrowserLibrary](https://github.com/MarketSquare/robotframework-browser)
+
+[RequestsLibrary](https://github.com/bulkan/robotframework-requests)
+  
+[DataDriver](https://github.com/Snooz82/robotframework-datadriver)
+
+
+
+### How do I get set up? ###
+
+* Install [Python 3](https://python.org/)
+* Clone or download this repository
+* Using the command line navigate in to the project folder and execute the command ```pip install -r requirements.txt``` this will install robot framework and the required supporting library's and their dependencies
+
+Once everything has been installed you can run the test suite from the command line in the projects folder with the command```robot testscripts
+``` 
+
+
+
+### Who do I talk to? ###
+
+* Yogesh Pawar - [LinkedIn](https://www.linkedin.com/in/yogesh-pawar-73a99856/)
