@@ -46,7 +46,7 @@ http://localhost:8080/swagger-ui.html
 ```
 pip install -r requirements.txt
 ``` 
-this will install robot framework and the required supporting library's and their dependencies
+   this will install robot framework and the required supporting library's and their dependencies
 
 6. Once everything has been installed you can run the test suite from the command line in the projects folder with the command
 ```
