@@ -20,3 +20,27 @@ http://localhost:8080/swagger-ui.html
 ##### 4. Good luck and have fun
 
 _Note that should you encounter any problems or have any questions, please do not hesitate to contact us for assistance =)_ 
+
+
+Prerequisites
+Git must be installed on the system where the Robot Framework scripts will be executed.
+Robot Framework must be installed on the system where the Robot Framework scripts will be executed.
+Steps
+Clone the Git repository containing the Robot Framework scripts to a local directory on the system where the scripts will be executed.
+
+git clone <repository-url>
+
+Navigate to the directory where the Robot Framework scripts are located.
+
+cd <repository-directory>
+
+Execute the Robot Framework scripts using the following command:
+
+robot <test-suite-file>
+
+Replace <test-suite-file> with the name of the Robot Framework test suite file to be executed. This file must have a .robot extension.
+Optionally, you can specify additional arguments to the robot command. For example, to run the tests in verbose mode, use the --verbose argument: robot --verbose <test-suite-file>
+After the execution of the Robot Framework tests, a report file and a log file will be generated. These files will be located in the same directory where the test suite file is located.
+
+The report file will have a .html extension and can be opened in a web browser to view the test results.
+The log file will have a .log extension and can be used to debug any issues that occurred during the test execution.
